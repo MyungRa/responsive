@@ -1,0 +1,12 @@
+/* 태블릿... 512px 이상이면 태블릿임 */
+@media all and (min-width:512px) {
+    .menus {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .menus__menu {
+        width: 48%;
+        padding: 5px;
+        height: 280px;
+    }
+}

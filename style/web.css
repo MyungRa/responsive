@@ -1,0 +1,15 @@
+/* 1024px 이상이면 PC 화면이라고 친다 */
+@media all and (min-width:1024px) {
+    header {
+        height: 80px;
+    }
+    .menus__menu {
+        width: 33%;
+        padding: 10px;
+    }
+    footer {
+        height: 60px;
+    }
+}
+
+
